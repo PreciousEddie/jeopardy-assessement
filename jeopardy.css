@@ -1,0 +1,80 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+/* Body styles */
+body {
+  font-family: "Swiss721 Black Condensed", sans-serif;
+  text-align: center;
+  background-color: black;
+}
+
+header {
+  margin-top: 30px;
+}
+
+h1#logo {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+button#start {
+  font-size: 24px;
+  padding: 5px 10px;
+  background-color: rgb(209, 209, 1);
+  color: black;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border: 5px ridge grey;
+}
+
+#spin-container {
+  display: none;
+  margin: 30px;
+}
+
+#jeopardy {
+  border: 10px solid white;
+  display: none;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #115ff4;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+#jeopardy h2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#jeopardy p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#jeopardy p.question {
+  cursor: pointer;
+}
+
+#jeopardy p.answer {
+  color: rgb(211, 16, 16);
+  cursor: pointer;
+}
+
+#jeopardy p.reveal {
+  font-weight: bold;
+}
